@@ -14,7 +14,11 @@
 
 ## Description
 
+<<<<<<< HEAD
 _This is an application containing a form with fields to be inputted with information by the user and then return the information in uppercase. _
+=======
+_This is an application containing a form with fields to be inputted with information by the user and then return the information in uppercase._
+>>>>>>> 4b74c12debbb115d71ebe9490fa0c75e3708fd5e
 
 ## Setup/Installation Requirements
 
