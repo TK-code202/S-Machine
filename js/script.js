@@ -3,7 +3,7 @@ $(document).ready(function() {
         const firstNameInput = $("input#first-name").val().toUpperCase();
         const lastNameInput = $("input#last-name").val().toUpperCase();
         const ageInput = $("input#age").val();
-        const genderInput = $("input#gender").val().toUpperCase();
+        const genderInput = $("input[type='radio'][name='Gender']:checked").val().toUpperCase();
         const hobbyInput = $("input#hobby").val().toUpperCase();
         const colorInput = $("input#color").val().toUpperCase();
         const foodInput = $("input#food").val().toUpperCase();
