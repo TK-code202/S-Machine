@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.6.4.js"></script>
+    <script src="js/script.js"></script>
+    <title>🔊The Shouting Machine</title>
+</head>
+<body>
+    <div class="contain">
+        <form id="formOne">
+            <h1 class="text-center text-info">The Shouting Machine</h1>
+            <h4 class="text-center">Fill out your information in the fields below to speak to the machine.</h4>
+            <div class="form-group">
+                <label for="first-name">First Name</label>
+                <input id="first-name" class="form-control" type="text" required>
+            </div>
+            <div class="form-group">
+                <label for="last-name">Last Name</label>
+                <input id="last-name" class="form-control" type="text" required>
+            </div>
+            <div class="form-group">
+                <label for="age">Age</label>
+                <input id="age" class="form-control" type="number" required>
+            </div>
+            <div class="form-group">
+                Gender:
+                <label for="Male">Male</label>
+                <input type="radio" id="gender" name="Gender" value="Male">
+             
+                <label for="Female">Female</label>
+                <input type="radio" id="gender" name="Gender"  value="Female" >
+            </div>
+            <div class="form-group">
+                <label for="hobby">Hobbies</label>
+                <input id="hobby" class="form-control" type="text" required>
+            </div>
+            <div class="form-group">
+                <label for="color">Favourite Colour</label>
+                <input id="color" class="form-control" type="text" required>
+            </div>
+            <div class="form-group">
+                <label for="food">Favorite Food</label>
+                <input id="food" class="form-control" type="text" required>
+            </div>
+            <div class="form-group">
+                <label for="song">Favourite Song</label>
+                <input id="song" class="form-control" type="text" required>
+            </div>
+            <div class="form-group">
+                <label for="ambition">Future Ambition</label>
+                <input id="ambition" class="form-control" type="text" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Show Me!</button>
+        </form>
+    </div>
+
+    <div id="result">
+        <h1 class="text-warning text-center">Shouting Machine's Response 🗣🔊</h1>
+        <p>Hello <span class="f-name"></span> <span class="l-name"></span>!!!</p>
+        <p>You are <span class="age"></span> YEARS OLD! and you are  <span class="gender"></span>! You love <span class="hobby"></span>!! and your favourite food is <span class="food"></span>!! Your favourite color is  <span class="color"></span>! Your favourite song is <span class="song"></span> and your future ambition is to become a <span class="ambition"></span>!!!</p>
+    </div>
+</body>
+</html>
