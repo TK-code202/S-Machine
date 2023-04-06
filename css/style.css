@@ -1,0 +1,31 @@
+body {
+    background-image: url(pexels-photo-8898679.jpeg);
+    background-size: cover;
+}
+
+.contain {
+    margin-top: 8px;
+    padding: 14px;
+    width: 60%;
+    margin-left: 210px;
+    margin-bottom: 10px;
+    background-color: darkgoldenrod;
+}
+
+#result {
+    background-color: darkcyan;
+    margin-top: 16px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 8px;
+    margin-bottom: 22px;
+    display: none;
+}
+
+#result p {
+    font-size: 1.3rem;
+}
+
+span {
+    font-weight: 700;
+}
