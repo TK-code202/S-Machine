@@ -13,7 +13,7 @@
 * _Javascript & jQuery_
 
 ## Description
-_This is an application containing a form with fields to be inputted with information by the user and then return the information in uppercase. _
+_This is an application containing a form with fields to be inputted with information by the user and then return the information in uppercase._
 
 ## Setup/Installation Requirements
 
